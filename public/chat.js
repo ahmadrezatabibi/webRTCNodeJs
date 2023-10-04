@@ -1,4 +1,4 @@
-let socket = io.connect("http://webrtcvideo.onrender.com");
+let socket = io.connect("https://webrtcvideo.onrender.com");
 let divVideoChatLobby = document.getElementById("video-chat-lobby");
 let divVideoChat = document.getElementById("video-chat-room");
 let joinButton = document.getElementById("join");
